@@ -1,6 +1,6 @@
-FROM python:3.10.9-alpine
-WORKDIR /app
-COPY . .
-RUN pip install -r requirement.txt
+#This is a sample Image 
+FROM ubuntu 
+RUN apt-get update 
+RUN apt-get install –y nginx 
 EXPOSE 80
-CMD [ "python", "main.py" ]
+CMD [“echo”,”Image created”] 
