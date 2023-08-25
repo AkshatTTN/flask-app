@@ -15,5 +15,4 @@ import time
 #     app.run(host='0.0.0.0', port=5000)
 # This program prints Hello, world!
 print('Hello, world!')
-time.sleep(300)
 print("closed")
